@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.svenruppert</groupId>
-  <artifactId>dependencies</artifactId>
-  <version>05.00.01-SRU</version>
+  <artifactId>Steganography</artifactId>
+  <version>00.05.00-SRU</version>
 
 
   <inceptionYear>2023</inceptionYear>
@@ -15,13 +15,13 @@
     <url>http://www.svenruppert.com</url>
   </organization>
 
-  <url>https://github.com/svenruppert/core-java-project-template</url>
-  <name>Core java project template</name>
-  <description>The beginning of your OSS project</description>
+  <url>https://github.com/svenruppert/Steganography</url>
+  <name>Steganography Demos</name>
+  <description>Basic Implementations To Demonstrate Steganography</description>
   <scm>
-    <url>https://github.com/svenruppert/core-java-project-template</url>
-    <connection>scm:git:https://github.com/svenruppert/core-java-project-template.git</connection>
-    <developerConnection>scm:git:https://github.com/svenruppert/core-java-project-template.git</developerConnection>
+    <url>https://github.com/svenruppert/Steganography</url>
+    <connection>scm:git:https://github.com/svenruppert/Steganography.git</connection>
+    <developerConnection>scm:git:https://github.com/svenruppert/Steganography.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <developers>
@@ -37,7 +37,7 @@
   </developers>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/svenruppert/core-java-project-template/issues</url>
+    <url>https://github.com/svenruppert/Steganography/issues</url>
   </issueManagement>
   <licenses>
     <license>
@@ -139,25 +139,25 @@
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.10.0-M1</version>
+        <version>5.10.2</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-params</artifactId>
-        <version>5.10.0-M1</version>
+        <version>5.10.2</version>
       </dependency>
 
       <dependency>
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-launcher</artifactId>
         <scope>test</scope>
-        <version>1.10.0-M1</version>
+        <version>1.10.2</version>
       </dependency>
       <dependency>
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-testkit</artifactId>
-        <version>1.10.0-M1</version>
+        <version>1.10.2</version>
         <scope>test</scope>
       </dependency>
       <!-- Only required to run tests in an IDE that bundles an older version -->
@@ -165,25 +165,25 @@
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
         <scope>test</scope>
-        <version>5.10.0-M1</version>
+        <version>5.10.2</version>
       </dependency>
 
       <dependency>
         <groupId>org.pitest</groupId>
         <artifactId>pitest</artifactId>
-        <version>1.4.9</version>
+        <version>1.16.0</version>
         <scope>test</scope>
       </dependency>
 
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
-        <version>2.0.7</version>
+        <version>2.1.0-alpha1</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-simple</artifactId>
-        <version>2.0.7</version>
+        <version>2.1.0-alpha1</version>
       </dependency>
 
 
@@ -195,7 +195,7 @@
     <dependency>
       <groupId>org.apache.pdfbox</groupId>
       <artifactId>pdfbox</artifactId>
-      <version>2.0.24</version>
+      <version>3.0.2</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.jcodec/jcodec -->
@@ -211,29 +211,6 @@
       <version>0.2.5</version>
     </dependency>
 
-
-
-    <!--        DemoApplication?-->
-    <dependency>
-      <groupId>io.javalin</groupId>
-      <artifactId>javalin</artifactId>
-      <version>5.6.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.javalin</groupId>
-      <artifactId>javalin-testtools</artifactId>
-      <version>5.6.0</version>
-      <scope>test</scope>
-    </dependency>
-
-
-<!--    REST-Testing-->
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>5.3.0</version>
-      <scope>test</scope>
-    </dependency>
 
     <!--jUnit5-->
     <dependency>
@@ -284,22 +261,22 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>versions-maven-plugin</artifactId>
-          <version>2.15.0</version>
+          <version>2.16.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>2.0.1</version>
+          <version>2.1.0</version>
         </plugin>
         <plugin>
           <groupId>com.mycila</groupId>
           <artifactId>license-maven-plugin</artifactId>
-          <version>4.2</version>
+          <version>4.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>4.0.0-M8</version>
+          <version>4.0.0-M13</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -314,37 +291,37 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>3.0.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>3.6.0</version>
+          <version>3.6.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.13.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
-          <version>3.3.2</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.5</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -354,7 +331,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>3.3.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -364,22 +341,22 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.5.0</version>
+          <version>3.6.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.4.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -389,13 +366,13 @@
         <plugin>
           <groupId>org.owasp</groupId>
           <artifactId>dependency-check-maven</artifactId>
-          <version>8.2.1</version>
+          <version>9.1.0</version>
         </plugin>
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-shade-plugin</artifactId>
-          <version>3.4.1</version>
+          <version>3.5.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.felix</groupId>
@@ -405,23 +382,23 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
-          <version>3.4.0</version>
+          <version>3.5.0</version>
         </plugin>
         <plugin>
           <groupId>org.pitest</groupId>
           <artifactId>pitest-maven</artifactId>
-          <version>1.14.1</version>
+          <version>1.16.0</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.0</version>
         </plugin>
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.5</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -431,7 +408,7 @@
         <plugin>
           <groupId>com.github.webdriverextensions</groupId>
           <artifactId>webdriverextensions-maven-plugin</artifactId>
-          <version>3.4.0</version>
+          <version>4.0.0</version>
         </plugin>
         <!--                <plugin>-->
         <!--                    <groupId>de.sormuras.junit</groupId>-->
@@ -520,7 +497,7 @@
           <dependency>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-junit5-plugin</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.1</version>
           </dependency>
 
         </dependencies>
@@ -546,7 +523,7 @@
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>10.12.0</version> <!-- Checkstyle version -->
+            <version>10.15.0</version> <!-- Checkstyle version -->
           </dependency>
         </dependencies>
         <executions>
@@ -665,7 +642,7 @@
       <plugin>
         <groupId>org.cyclonedx</groupId>
         <artifactId>cyclonedx-maven-plugin</artifactId>
-        <version>2.7.1</version>
+        <version>2.8.0</version>
         <executions>
           <execution>
             <phase>package</phase>
