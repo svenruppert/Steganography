@@ -4,7 +4,7 @@ Steganography is a fascinating technique for concealing secret information withi
 This repository provides a comprehensive overview of steganography, including encoding into text, Image, Audio, Video and PDF files.
 
 * The corresponding article is under https://svenruppert.com/2024/03/28/beyond-the-visible-exploring-the-depths-of-steganography/
-* A German Video ist under [https://img.youtube.com/vi/tYeC3A57wgc/maxresdefault.jpg](https://youtu.be/tYeC3A57wgc)
+* A German Video ist under [![](https://img.youtube.com/vi/tYeC3A57wgc/maxresdefault.jpg)](https://youtu.be/tYeC3A57wgc)
 
 Whether you're a beginner seeking to understand the basics of steganography 
 or an experienced practitioner looking for advanced techniques, this repository has something for everyone. 
